@@ -13,5 +13,8 @@
     "back-end"
   ],
   "author": "Ju Dantas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mime": "^1.4.1"
+  }
 }
