@@ -6,13 +6,6 @@ cd mentoria
 npm install
 ```
 
-# Iniciar Aplicacao
-
-```
-npm run start:app
-```
-
-
 # Iniciar API
 
 ```
