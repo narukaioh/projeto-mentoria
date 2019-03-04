@@ -1,0 +1,17 @@
+{
+  "name": "mentoria",
+  "version": "1.0.0",
+  "description": "Projeto de Mentoria das meninas",
+  "main": "index.js",
+  "scripts": {
+    "start:site": "cd front && httpserver --port 8080",
+    "start:api": "cd json-server && json-server api.json"
+  },
+  "keywords": [
+    "mentoria",
+    "front-end",
+    "back-end"
+  ],
+  "author": "Ju Dantas",
+  "license": "ISC"
+}

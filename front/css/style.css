@@ -1,0 +1,44 @@
+/* ensinar layouting */
+/* ensinar displays */
+/* ensinar positions */
+/* ensinar box-model */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.todos-livros span {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.todos-livros small {
+  color: gray;
+}
+.todos-livros span,
+.todos-livros small {
+  display: block;
+}
+
+.todos-livros li {
+  margin-bottom: 10px;
+}
+
+.edit, .delete {
+  border: none;
+  border-radius: 3px;
+  padding: 5px 15px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.edit {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
+.delete {
+  background: red;
+  color: white;
+  font-weight: bold;
+}
